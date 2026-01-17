@@ -1,0 +1,85 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #4f46e5;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 60px 20px;
+            background-color: #f9fafb;
+            text-align: center;
+        }
+
+        .features h2 {
+            margin-bottom: 30px;
+        }
+
+        .feature-box {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            background: white;
+            padding: 25px;
+            width: 250px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .feature i {
+            font-size: 35px;
+            color: #4f46e5;
+            margin-bottom: 15px;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 60px 20px;
+            background-color: #e5e7eb;
+            text-align: center;
+        }
+
+        .contact h2 {
+            margin-bottom: 15px;
+        }
+
+        .contact p {
+            font-size: 16px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #111827;
+            color: white;
+        }

@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+p::first-line {
+    font-weight: bold;
+    color: darkblue;
+}
+h2::before {
+    content: "★ ";
+    color: orange;
+    font-size: 22px;
+}

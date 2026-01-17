@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation bar container */
+.navbar {
+    text-align: center;   /* Center-align entire navbar */
+    margin-top: 30px;
+}
+
+/* Navigation links */
+.navbar a {
+    display: inline-block;        /* Make links horizontal */
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;        /* Remove underline */
+    margin: 0 5px;
+}
+
+/* Hover effect */
+.navbar a:hover {
+    background-color: #357ab8;
+}

@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;   /* center gallery horizontally */
+    align-items: center;       /* center gallery vertically */
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+/* Gallery grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3x2 grid */
+    gap: 15px;
+}
+
+/* Images */
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Change grid to 2x3 for screens narrower than 600px */
+@media (max-width: 600px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

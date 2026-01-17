@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Flexbox container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* center horizontally */
+}
+
+/* Common box styling */
+.box {
+    width: 90%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+}
+
+/* Change to row layout for screens wider than 768px */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .box {
+        width: 25%;
+    }
+}

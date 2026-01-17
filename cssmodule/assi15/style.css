@@ -1,0 +1,82 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f3f4f6;
+        }
+
+        /* Navigation Menu */
+        nav {
+            background: #1f2933;
+            padding: 15px;
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            justify-content: center;
+        }
+
+        .menu li {
+            color: white;
+            cursor: pointer;
+        }
+
+        /* Vertical Menu */
+        .vertical-menu {
+            width: 200px;
+            background: #374151;
+            padding: 15px;
+            margin: 20px;
+        }
+
+        .vertical-menu li {
+            list-style: none;
+            color: white;
+            padding: 10px 0;
+        }
+
+        /* Gallery Section */
+        .gallery-section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .gallery-section h2 {
+            margin-bottom: 20px;
+            color: #111827;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        /* Hover Effects */
+        .gallery img:hover {
+            transform: scale(1.1) rotate(2deg);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        footer {
+            margin-top: 40px;
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
